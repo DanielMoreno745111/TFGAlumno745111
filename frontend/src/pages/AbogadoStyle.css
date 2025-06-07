@@ -1,0 +1,136 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  color:black
+}
+
+.abogado-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 100%;
+  padding: 20px;
+  background-color: var(--color-bg, #f9f9f9);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.abogado-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--color-text, #333);
+}
+
+.abogado-container h3 {
+  margin-top: 20px;
+  color: black;
+}
+
+.abogado-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.abogado-container li {
+  padding: 8px 0;
+  border-bottom: 1px solid #e7e7e7;
+  color: var(--color-text, #333);
+}
+
+.error {
+  color: var(--color-error, #d9534f);
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mensaje {
+  color: green;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-enviar-email {
+  margin-top: 25px;
+  padding: 10px 20px;
+  background-color: var(--color-accent, #007BFF);
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-enviar-email:hover {
+  background-color: #0056b3;
+}
+
+.cerrarSesion{
+  position: relative;
+  left:750px;
+  padding: 10px 0;
+  width: 150px;
+}
+
+.btn-toggle-formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 10px 20px;
+  background-color: var(--color-accent, #007BFF);
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.texto{
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-right: 100px
+}
+
+.texto input{
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
+  margin-right: 30px;
+}
+
+.tabla-documentos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  color: black
+}
+
+.tabla-documentos th,
+.tabla-documentos td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  color: black;
+}
+
+.tabla-documentos button{
+  color: black;
+}
+
+.botonDescarga{
+  color: black;
+}
